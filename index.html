@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WARNERBROS</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .hero {
+      background-image: url("IMAGES/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.avif");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+
+    h2 {
+      color: green;
+    }
+
+    p {
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #00cfff;
+    }
+
+    .header h1 {
+      color: #9700ff;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #00cfff;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #00cfff;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #00cfff;
+      color: white;
+    }
+
+    table {
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 10px;
+      color: white;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #84e4e2;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+
+    /* New CSS for sign-in options */
+    .signin-options {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .signin-options a {
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+
+    /* New CSS for social sign-in options */
+    .social-signin-options {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-signin-options a {
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+
+    /* New CSS for form alignment */
+    .form-container {
+      text-align: center;
+    }
+
+    form {
+      display: inline-block;
+      text-align: left;
+    }
+
+    form label {
+      display: block;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    form input[type="text"],
+    form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    form textarea {
+      resize: vertical;
+    }
+
+    form input[type="submit"] {
+      background-color: #00cfff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #009fcc;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero">
+    <header class="header">
+      <h1>WARNERBROS</h1>
+    </header>
+    <aside class="left">
+      <img src="IMAGES/WARNERBROS.jpeg" width="172px" class="img-fluid">
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link active" href="warnersbros.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="MOVIES.html">Movies</a></li>
+        <li class="nav-item"><a class="nav-link" href="TV SHOWS.html">TV Shows</a></li>
+        <li class="nav-item"><a class="nav-link" href="Games&Apps.html">Games&Apps</a></li>
+        <li class="nav-item"><a class="nav-link" href="Collection.html">Collection</a></li>
+        <li class="nav-item"><a class="nav-link" href="Feedback.html">Feedback</a></li>
+      </ul>
+      <br><br>
+      <p class="text-white">"#TAG know what studios are planning."<br>- AT WARNERBROS</p>
+      
+      <!-- Sign-in options -->
+      <div class="signin-options">
+        <a href="https://www.google.com" class="btn btn-outline-light btn-block">Sign in with Google</a>
+        <a href="https://www.facebook.com" class="btn btn-outline-light btn-block">Sign in with Facebook</a>
+        <a href="https://www.twitter.com" class="btn btn-outline-light btn-block">Sign in with Twitter</a>
+      </div>
+
+      <!-- Social sign-in options -->
+      <div class="social-signin-options">
+        <a href="https://www.instagram.com" class="btn btn-outline-light btn-block">Sign in with Instagram</a>
+        <a href="https://www.linkedin.com" class="btn btn-outline-light btn-block">Sign in with LinkedIn</a>
+        <a href="https://www.github.com" class="btn btn-outline-light btn-block">Sign in with GitHub</a>
+      </div>
+    </aside>
+    <main class="content">
+      <h2>About Me</h2>
+      <p>Warner Bros. is a renowned entertainment company founded in 1923 by the Warner brothers. With a rich history spanning decades, it stands as one of the largest film and television production studios globally. Known for its diverse content range, including blockbuster films, TV shows, and video games, Warner Bros. boasts iconic franchises like Harry Potter, DC Comics adaptations, and The Lord of the Rings. Additionally, the company operates television production divisions responsible for hit shows like Friends and Game of Thrones. Over time, Warner Bros. has expanded its reach into various entertainment sectors, including distribution, streaming services, and theme parks, solidifying its influence in shaping popular culture worldwide.</p>
+      <h2>Our Goal</h2>
+      <p>Increase Engagement: Keep visitors interested with engaging content like trailers and reviews.<br>Drive Traffic: Use SEO, social media, and partnerships to attract more visitors.<br>Promote Releases: Generate excitement and boost sales for new entertainment releases.<br>Improve User Experience: Make the website easy to navigate and use.<br>Build Community: Allow users to connect and share opinions on the platform.<br>Monetize: Earn revenue through ads, affiliate marketing, subscriptions, or merchandise.<br>Analyze and Optimize: Continuously improve by analyzing user data and refining strategies.</p>
+      <hr><br>
+      
+      <!-- Movies and TV Shows wrapper -->
+      <div class="movies-wrapper">
+        <h2>HEAR AND BE AHEAD, STAY TUNED FOR!</h2>
+        <table class="table table-dark">
+          <tr>
+            <th>Godzilla x Kong: The New Empire</th>
+            <th>Kingdom of the Planet of the Apes</th>
+            <th>The Ministry of Ungentlemanly Warfare</th>
+          </tr>
+          <tr>
+            <td><a href="movies/MOVIES.html"><img src="IMAGES/download.jpeg" alt="ONCINEMA CLICK TAP" class="img-fluid"></a></td>
+            <td><a href="movies/MOVIES.html"><img src="IMAGES/images.jpeg" alt="Don't MISSOUT" class="img-fluid"></a></td>
+            <td><a href="movies/MOVIES.html"><img src="IMAGES/war.jpg" width="180px" alt="The TOP 3" class="img-fluid"></a></td>
+          </tr>
+          <tr>
+            <td><a href="movies/MOVIES.html" class="btn btn-outline-light btn-block">TAP</a></td>
+            <td><a href="movies/MOVIES.html" class="btn btn-outline-light btn-block">TAP</a></td>
+            <td><a href="movies/MOVIES.html" class="btn btn-outline-light btn-block">TAP</a></td>
+          </tr>
+        </table>
+        <hr><br>
+        <table class="table table-dark">
+          <tr>
+            <th>DC's Superman and Lois</th>
+            <th>Game of Thrones</th>
+            <th>DC's Doom Patrol</th>
+          </tr>
+          <tr>
+            <td><a href="tv shows/TV SHOWS.html"><img src="IMAGES/supermanlois.jpg" alt="ON TV" class="img-fluid"></a></td>
+            <td><a href="tv shows/TV SHOWS.html"><img src="IMAGES/throne.jpg" alt="THE EPIC SERIES" class="img-fluid"></a></td>
+            <td><a href="tv shows/TV SHOWS.html"><img src="IMAGES/doom.jpg" alt="DARK DAYS" class="img-fluid"></a></td>
+          </tr>
+          <tr>
+            <td><a href="tv shows/TV SHOWS.html" class="btn btn-outline-light btn-block">TAP</a></td>
+            <td><a href="tv shows/TV SHOWS.html" class="btn btn-outline-light btn-block">TAP</a></td>
+            <td><a href="tv shows/TV SHOWS.html" class="btn btn-outline-light btn-block">TAP</a></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2023 WARNERBROS. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- Bootstrap and jQuery scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

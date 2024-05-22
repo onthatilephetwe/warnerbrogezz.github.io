@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies Display</title>
+  <style>body {
+    background-color: black; /* Add black background color */
+    color: white; /* Set default text color to white */
+  }
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #00cfff;
+    }
+    .header h1 {
+      color: #9700ff;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+    }
+
+    .movies-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px; /* Adjust as needed */
+      margin: 0 auto;
+    }
+    
+    .movie {
+      width: calc(25% - 10px); /* 4 movies in a row */
+      margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .Games {
+        width: calc(50% - 10px); /* 2 movies in a row on smaller screens */
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .Games {
+        width: 100%; /* 1 movie per row on smaller screens */
+      }
+    }
+
+    .Games img {
+      width: 100%;
+      height: auto;
+      display: block;
+      cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+    .Games h3 {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .Games a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .home-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .home-button:hover {
+      background-color: #0056b3;
+    }
+
+
+  </style>
+</head>
+<body><header class="header">
+  <h1>WarnerBros Movies</h1>
+</header>
+<aside class="left">
+  <ul>
+    <li><a href="warnersbros.html">Home</a></li>
+    <li><a class="active" href="MOVIES.html">Movies</a></li>
+    <li><a href="TV SHOWS.html">TV Shows</a></li>
+    <li><a href="Games&Apps.html">Games&Apps</a></li>
+    <li><a href="Collection.html">Collection</a></li>
+    <li><a href="Feedback.html">Feedback</a></li>
+  </ul>
+</aside> <p>Here you can find a collection of our exclusive content...</p>
+  <!-- Include your collection content here -->
+   <div class="Games&Apps-wrapper">
+    <!-- Existing movies -->
+    <div class="Games&Apps">
+      <a href="https://www.warnerbros.com/games-and-apps" target="_blank">
+        <img src="IMAGES/lego.jpeg" alt="LEGO Star Wars: The Skywalker Saga
+        Video game
+        ">
+        <h3>LEGO Star Wars: The Skywalker Saga
+            Video game
+            </h3>
+      </a>
+    </div>
+    <div class="Games&Apps">
+      <a href="https://www.warnerbros.com/games-and-apps" target="_blank">
+        <img src="IMAGES/batmen.jpg" alt="Batman: Arkham City
+        Video game
+        ">
+        <h3>Batman: Arkham City
+            Video game
+            </h3>
+      </a>
+    </div>
+    <div class="Games&Apps">
+      <a href="https://www.warnerbros.com/games-and-apps" target="_blank">
+        <img src="IMAGES/shadow-warrior-2-button-fin-1643359674417.jpg" alt="Shadow Warrior 2
+        Video game">
+        <h3>Shadow Warrior 2
+            Video game<br>Video Game</h3>
+      </a>
+    </div>
+    <div class="Games&Apps">
+      <a href="https://www.warnerbros.com/games-and-apps" target="_blank">
+        <img src="IMAGES/download.jpeg" alt="DC Universe Online
+        Online game
+        ">
+        <h3>GodDC Universe Online
+            Online game
+            <br>2024 ‧ Action/Sci-fi ‧ 1h 55m</h3>
+      </a>
+    </div>
+  </div>
+  <button class="home-button" onclick="window.location.href='warnersbros.html'">Go to Home Page</button>
+</body>
+</html>

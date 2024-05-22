@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .feedback-form {
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .feedback-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .feedback-form input[type="text"],
+    .feedback-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #444;
+      color: white;
+    }
+
+    .feedback-form textarea {
+      resize: vertical;
+    }
+
+    .feedback-form input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .feedback-form input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .terms-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .terms-link a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .terms-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>WarnerBros Movies</h1>
+  </header>
+  <aside class="left">
+    <ul>
+      <li><a href="warnersbros.html">Home</a></li>
+      <li><a class="active" href="MOVIES.html">Movies</a></li>
+      <li><a href="TV SHOWS.html">TV Shows</a></li>
+      <li><a href="Games&Apps.html">Games&Apps</a></li>
+      <li><a href="Collection.html">Collection</a></li>
+      <li><a href="Feedback.html">Feedback</a></li>
+    </ul>
+  </aside>
+  <div class="container">
+    <h1>Feedback Form</h1>
+    <p>We value your feedback. Please use the form below to share your thoughts, suggestions, or report any issues you encountered while using our website.</p>
+    <form class="feedback-form" action="submit_feedback.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+    <div class="terms-link">
+      <a href="https://policies.warnerbros.com/terms/en-us/html/terms_en-us_1.3.0.html" target="_blank">Terms of Service</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies - WarnerBros</title>
+  <style>
+    /* Include the necessary CSS styles as in the main page */
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      background-color: black;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #00cfff;
+    }
+
+    .header h1 {
+      color: #9700ff;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #00cfff;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #00cfff;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #00cfff;
+      color: white;
+    }
+
+    h2, p {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>WarnerBros Movies</h1>
+  </header>
+  <aside class="left">
+    <ul>
+      <li><a href="warnersbros.html">Home</a></li>
+      <li><a class="active" href="MOVIES.html">Movies</a></li>
+      <li><a href="TV SHOWS.html">TV Shows</a></li>
+      <li><a href="Games&Apps.html">Games&Apps</a></li>
+      <li><a href="Collection.html">Collection</a></li>
+      <li><a href="Feedback.html">Feedback</a></li>
+    </ul>
+  </aside>
+  <main class="content">
+   
+    <div class="movies-wrapper">
+      <!-- Existing movies -->
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/images (1).jpeg" alt="The Matrix Resurrections 2021 ‧ Action/Sci-fi ‧ 2h 28m">
+          <h3>The Matrix Resurrections<br>2021 ‧ Action/Sci-fi ‧ 2h 28m</h3>
+        </a>
+      </div>
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/harrypotter.jpeg" alt="Harry Potter and the Chamber of Secrets 2002 ‧ Fantasy/Adventure ‧ 2h 41m">
+          <h3>Harry Potter and the Chamber of Secrets<br>2002 ‧ Fantasy/Adventure ‧ 2h 41m</h3>
+        </a>
+      </div>
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/The_Hobbit_trilogy_dvd_cover.jpg" alt="The Hobbit Film series">
+          <h3>The Hobbit<br>Film series</h3>
+        </a>
+      </div>
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/download.jpeg" alt="Godzilla x Kong: The New Empire 2024 ‧ Action/Sci-fi ‧ 1h 55m">
+          <h3>Godzilla x Kong: The New Empire<br>2024 ‧ Action/Sci-fi ‧ 1h 55m</h3>
+        </a>
+      </div>
+      <!-- Additional movies -->
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/war.jpg" alt="The Ministry of Ungentlemanly Warfare 2024 ‧ Action/War ‧ 2 hours">
+          <h3>The Ministry of Ungentlemanly Warfare<br>2024 ‧ Action/War ‧ 2 hours</h3>
+        </a>
+      </div>
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/images.jpeg" alt="Kingdom of the Planet of the Apes 2024 ‧ Action/Sci-fi ‧ 2h 25m">
+          <h3>Kingdom of the Planet of the Apes<br>2024 ‧ Action/Sci-fi ‧ 2h 25m</h3>
+        </a>
+      </div>
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/shazamfuryofthegods41678965222.webp" alt="Shazam! Fury of the Gods 2023 ‧ Action/Fantasy ‧ 2h 10m">
+          <h3>Shazam! Fury of the Gods<br>2023 ‧ Action/Fantasy ‧ 2h 10m</h3>
+        </a>
+      </div>
+      <div class="movie">
+        <a href="https://www.warnerbros.com/movies" target="_blank">
+          <img src="IMAGES/MCDDUPA_WB041-e1708041579639.webp" alt="Dune: Part Two 2024 ‧ Sci-fi/Adventure ‧ 2h 46m">
+          <h3>Dune: Part Two<br>2024 ‧ Sci-fi/Adventure ‧ 2h 46m</h3>
+        </a>
+      </div>
+    </div>
+  </main>
+  <button class="home-button" onclick="window.location.href='warnersbros.html'">Go to Home Page</button>
+</body>
+</html>
